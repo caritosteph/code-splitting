@@ -3,6 +3,7 @@ import "./styles.css";
 import "./app.css";
 import HOC from "./HOC";
 import Loadable from "./Loadable";
+import Lazy from "./Lazy";
 
 const App = () => {
   return (
@@ -10,6 +11,8 @@ const App = () => {
       <HOC />
       <hr />
       <Loadable />
+      <hr />
+      <Lazy />
     </>
   );
 };
