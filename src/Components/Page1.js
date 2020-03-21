@@ -7,8 +7,8 @@ const Page1 = ({ onRouteChange, type }) => (
       <h1 className="App-title">Welcome to Page 1</h1>
     </header>
     <button className="disabled">Page1</button>
-    <button onClick={() => onRouteChange("page2")}>Page2</button>
-    <button onClick={() => onRouteChange("page3")}>Page3</button>
+    <button onClick={() => onRouteChange("Page2")}>Page2</button>
+    <button onClick={() => onRouteChange("Page3")}>Page3</button>
   </div>
 );
 
